@@ -25,14 +25,14 @@ public class Trayecto2 {
 	Integer demoraTotal(){
 		Integer demora = 0;
 		for(Integer = 1; i < (recorridoFaltante.length(); i++){
-			demora += CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1],(recorridoFaltante[i])
+			demora += CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1], recorridoFaltante[i])
 		}
 		return demora;
 	}
 
 	Integer demoraSeccion(){
 		if(recorridoFaltante.length()>1){
-			return CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1],(recorridoFaltante[i])
+			return CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1], recorridoFaltante[i])
 		}else{
 			return 0;
 		}
