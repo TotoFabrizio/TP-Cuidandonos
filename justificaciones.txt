@@ -4,27 +4,39 @@ Suponemos que si se detiene en cada parada, el tiempo de espera en cada parada e
 Supongo que al comenzar el trayecto las listas recorrido y recorrido faltante son iguales, pero cada vez que se notifica que se paso
 por un punto de espera se saca el primer valor de la lista, quedando el resto del recorrido en la misma.
 
-Integer tiempoEspera(){
-	if(this.tiempoEsperaParada == 0){
-		return this.demoraTotal();
-	}else{
-		return demoraSeccion();
+public class CalculadoraRecorrido {
+
+	public double duracionRecorrido (Direccion origen, Direccion destino) {
+		// Request a api “Distance Matrix API” para obtener la demora llegar desde el origen al destino
 	}
+
 }
 
-Integer demoraTotal(){
-	Integer demora = 0;
-	Integer velocidad = 75; //velocidad premedio al caminar en metros por minuto;
-	for(Integer = 1; i < (recorridoFaltante.length(); i++){
-		demora += distancia(recorridoFaltante[i-1],(recorridoFaltante[i])/velocidad;//Usa la API para calcular la distancia
+public class Trayecto2 {
+
+	Integer tiempoDemora(){
+		if(this.tiempoEsperaParada == 0){
+			return this.demoraTotal();
+		}else{
+			return demoraSeccion();
+		}
 	}
-	return demora;
-}
-Integer demoraSeccion(){
-	Integer velocidad = 75;
-	if(recorridoFaltante.length()>1){
-		return distancia(recorridoFaltante[0],recorridoFaltante[1])/velocidad;//Usa la API para calcular la distancia
-	}else{
-		return 0;
+
+	Integer demoraTotal(){
+		Integer demora = 0;
+		for(Integer = 1; i < (recorridoFaltante.length(); i++){
+			demora += CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1],(recorridoFaltante[i])
+		}
+		return demora;
 	}
+
+	Integer demoraSeccion(){
+		if(recorridoFaltante.length()>1){
+			return CalculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1],(recorridoFaltante[i])
+		}else{
+			return 0;
+		}
+	}
+
 }
+
