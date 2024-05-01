@@ -1,0 +1,30 @@
+La lista de direcciones,la cual debe estar ordenada, donde en la posicion 0 esta el origen y en la posicion N (ultima posicion de la lista) esta
+el destino.
+Suponemos que si se detiene en cada parada, el tiempo de espera en cada parada es el mismo y vale N.
+Supongo que al comenzar el trayecto las listas recorrido y recorrido faltante son iguales, pero cada vez que se notifica que se paso
+por un punto de espera se saca el primer valor de la lista, quedando el resto del recorrido en la misma.
+
+Integer tiempoEspera(){
+	if(this.tiempoEsperaParada == 0){
+		return this.demoraTotal();
+	}else{
+		return demoraSeccion();
+	}
+}
+
+Integer demoraTotal(){
+	Integer demora = 0;
+	Integer velocidad = 75; //velocidad premedio al caminar en metros por minuto;
+	for(Integer = 1; i < (recorridoFaltante.length(); i++){
+		demora += distancia(recorridoFaltante[i-(recorridoFaltante[i])/velocidad;
+	}
+	return demora;
+}
+Integer demoraSeccion(){
+	Integer velocidad = 75;
+	if(recorridoFaltante.length()>1){
+		return distancia(recorridoFaltante[0],recorridoFaltante[1])/velocidad;
+	}else{
+		return 0;
+	}
+}
