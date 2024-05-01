@@ -4416,8 +4416,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -272,
-											"top": -32,
+											"left": -256,
+											"top": -64,
 											"height": 13
 										},
 										{
@@ -4427,8 +4427,8 @@
 												"$ref": "AAAAAAGPNC8TJB6EGGg="
 											},
 											"font": "Arial;13;1",
-											"left": 437,
-											"top": 815,
+											"left": 445,
+											"top": 799,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "Trayecto2"
@@ -4441,8 +4441,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -272,
-											"top": -32,
+											"left": -256,
+											"top": -64,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -4455,15 +4455,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -272,
-											"top": -32,
+											"left": -256,
+											"top": -64,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 808,
+									"left": 440,
+									"top": 792,
 									"width": 210.41796875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -4499,8 +4499,8 @@
 												"$ref": "AAAAAAGPNC9DxyAxmgg="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 838,
+											"left": 445,
+											"top": 822,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "-transeunte: Persona",
@@ -4516,8 +4516,8 @@
 												"$ref": "AAAAAAGPNC9vXSGvYQw="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 853,
+											"left": 445,
+											"top": 837,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "-recorrido: List<Direccion>",
@@ -4533,8 +4533,8 @@
 												"$ref": "AAAAAAGPNC+6QCMeCss="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 868,
+											"left": 445,
+											"top": 852,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "-cuidadores: List<Persona>",
@@ -4550,8 +4550,8 @@
 												"$ref": "AAAAAAGPNDFF0S1YjDQ="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 883,
+											"left": 445,
+											"top": 867,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "-tiempoEsperaPunto: Integer",
@@ -4567,8 +4567,8 @@
 												"$ref": "AAAAAAGPNFd3ck0Lr18="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 898,
+											"left": 445,
+											"top": 882,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "-recorridoFaltante: List<Direccion>",
@@ -4576,8 +4576,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 833,
+									"left": 440,
+									"top": 817,
 									"width": 210.41796875,
 									"height": 83
 								},
@@ -4601,8 +4601,8 @@
 												"$ref": "AAAAAAGPNDAMmCSrZAo="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 921,
+											"left": 445,
+											"top": 905,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "+notificarCuidadores(): Void",
@@ -4618,8 +4618,8 @@
 												"$ref": "AAAAAAGPNDA/0iWz/nM="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 936,
+											"left": 445,
+											"top": 920,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "+comenzarTrayecto(): Void",
@@ -4635,8 +4635,8 @@
 												"$ref": "AAAAAAGPNDB5qCaOCvI="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 951,
+											"left": 445,
+											"top": 935,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "+notificarIncidente(): Void",
@@ -4652,8 +4652,8 @@
 												"$ref": "AAAAAAGPNDCmsCdpg2o="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 966,
+											"left": 445,
+											"top": 950,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "+finalizarTrayecto(): Void",
@@ -4669,19 +4669,36 @@
 												"$ref": "AAAAAAGPNDDiSSjpjAc="
 											},
 											"font": "Arial;13;0",
-											"left": 437,
-											"top": 981,
+											"left": 445,
+											"top": 965,
 											"width": 200.41796875,
 											"height": 13,
 											"text": "+tiempoDemora(): Integer",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGPNGeX0IHwCRY=",
+											"_parent": {
+												"$ref": "AAAAAAGPNC8TJR6K9wE="
+											},
+											"model": {
+												"$ref": "AAAAAAGPNGeXyoHemdQ="
+											},
+											"font": "Arial;13;0",
+											"left": 445,
+											"top": 980,
+											"width": 200.41796875,
+											"height": 13,
+											"text": "+avisarPasoPuntoEspera(): Void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 916,
+									"left": 440,
+									"top": 900,
 									"width": 210.41796875,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -4694,8 +4711,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -136,
-									"top": -16,
+									"left": -128,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								},
@@ -4710,18 +4727,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -136,
-									"top": -16,
+									"left": -128,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 432,
-							"top": 808,
+							"left": 440,
+							"top": 792,
 							"width": 209.41796875,
-							"height": 191,
+							"height": 206,
 							"nameCompartment": {
 								"$ref": "AAAAAAGPNC8TJB6EGGg="
 							},
@@ -4737,6 +4754,35 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAGPNC8TJR6MMh8="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGPNGjpNpFRDFQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 792,
+							"top": 840,
+							"width": 96,
+							"height": 103,
+							"text": "Este trayecto es el que se pide en el punto 2-2"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAGPNGlsvJ9KMsE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGPNGjpNpFRDFQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGPNC8TJB6Di5Y="
+							},
+							"lineStyle": 1,
+							"points": "650:894;791:892"
 						}
 					]
 				},
@@ -5864,6 +5910,25 @@
 										"$ref": "AAAAAAGPNDDiSSjpjAc="
 									},
 									"type": "Integer",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGPNGeXyoHemdQ=",
+							"_parent": {
+								"$ref": "AAAAAAGPNC8TJB6BWtQ="
+							},
+							"name": "avisarPasoPuntoEspera",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGPNGfa8IKK+gg=",
+									"_parent": {
+										"$ref": "AAAAAAGPNGeXyoHemdQ="
+									},
+									"type": "Void",
 									"direction": "return"
 								}
 							]

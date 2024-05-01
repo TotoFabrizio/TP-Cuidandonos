@@ -16,14 +16,14 @@ Integer demoraTotal(){
 	Integer demora = 0;
 	Integer velocidad = 75; //velocidad premedio al caminar en metros por minuto;
 	for(Integer = 1; i < (recorridoFaltante.length(); i++){
-		demora += distancia(recorridoFaltante[i-(recorridoFaltante[i])/velocidad;
+		demora += distancia(recorridoFaltante[i-1],(recorridoFaltante[i])/velocidad;//Usa la API para calcular la distancia
 	}
 	return demora;
 }
 Integer demoraSeccion(){
 	Integer velocidad = 75;
 	if(recorridoFaltante.length()>1){
-		return distancia(recorridoFaltante[0],recorridoFaltante[1])/velocidad;
+		return distancia(recorridoFaltante[0],recorridoFaltante[1])/velocidad;//Usa la API para calcular la distancia
 	}else{
 		return 0;
 	}
