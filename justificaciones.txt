@@ -4,38 +4,48 @@ Suponemos que si se detiene en cada parada, el tiempo de espera en cada parada e
 Supongo que al comenzar el trayecto las listas recorrido y recorrido faltante son iguales, pero cada vez que se notifica que se paso
 por un punto de espera se saca el primer valor de la lista, quedando el resto del recorrido en la misma.
 
-public class CalculadoraRecorrido {
+public class CalculadoraDistancia {
 
-	public double duracionRecorrido (Direccion origen, Direccion destino) {
+	public Float distanciaEntrePuntos(Direccion origen, Direccion destino) {
 		// Request a api “Distance Matrix API” para obtener la demora llegar desde el origen al destino
+	}
+
+}
+
+public class CalculadoraDemora{
+	
+	public Float duracionRecorrido (Trayecto2 trayecto) {
+		if(trayecto.tiempoEsperaPunto == 0){
+			Float distancia = this.demoraTotal(trayecto);
+			//En base a la distancia calcula el tiempo y lo devuelve
+		}else{
+			Float distancia = this.demoraSeccion(trayecto);
+			//En base a la distancia calcula el tiempo y lo devuelve
+		}
+	}
+
+	Float demoraTotal(Trayecto2 trayecto){
+		Integer distancia = 0;
+		for(Integer = 1; i < trayecto.recorridoFaltante.length(); i++){
+			demora += calculadoraDistancia.distanciaEntrePuntos(recorridoFaltante[i-1], recorridoFaltante[i]);
+		}
+		return distancia;
+	}
+
+	Float demoraSeccion(Trayecto2 trayecto){
+		if(recorridoFaltante.length()>1){
+			return calculadoraDistancia.distanciaEntrePuntos(recorridoFaltante[i-1], recorridoFaltante[i]);
+		}else{
+			return 0;
+		}
 	}
 
 }
 
 public class Trayecto2 {
 	
-	Float RtiempoDemora(){
-		if(this.tiempoEsperaParada == 0){
-			return this.demoraTotal();
-		}else{
-			return demoraSeccion();
-		}
-	}
-
-	Float demoraTotal(){
-		Integer demora = 0;
-		for(Integer = 1; i < (recorridoFaltante.length(); i++){
-			demora += calculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1], recorridoFaltante[i])/velocidadCaminar;
-		}
-		return demora;
-	}
-
-	Float demoraSeccion(){
-		if(recorridoFaltante.length()>1){
-			return calculadoraRecorrido.duracionRecorrido(recorridoFaltante[i-1], recorridoFaltante[i])/velocidadCaminar;
-		}else{
-			return 0;
-		}
+	Float tiempoDemora(){
+		calculadoraRecorrido.duracionRecorrido(self);
 	}
 
 }
